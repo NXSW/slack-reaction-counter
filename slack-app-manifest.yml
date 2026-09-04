@@ -1,0 +1,15 @@
+display_information:
+  name: Emoji Reaction Counter
+  description: 指定したチャンネルの絵文字リアクションを読み取り専用で集計します
+oauth_config:
+  scopes:
+    user:
+      - channels:history
+      - channels:read
+      - groups:history
+      - groups:read
+      - emoji:read
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

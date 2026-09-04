@@ -1,0 +1,2 @@
+slack-sdk>=3.36.0,<4
+python-dotenv>=1.0.0,<2
